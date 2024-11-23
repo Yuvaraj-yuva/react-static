@@ -1,0 +1,40 @@
+/* Container for the welcome section */
+.welcome-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem; /* Adds spacing around the section */
+  background-color: #f8f9fa; /* Light background color for contrast */
+}
+
+/* Left side (Text content: Title and Description) */
+.welcome-content {
+  max-width: 50%; /* Takes up half of the section width */
+}
+
+.welcome-content h1 {
+  font-size: 2.5rem; /* Large font size for the title */
+  font-weight: 700; /* Bold title */
+  margin-bottom: 1rem; /* Space below the title */
+  color: #2c3e50; /* Dark color for title */
+}
+
+.welcome-content p {
+  font-size: 1.125rem; /* Medium size for description */
+  line-height: 1.6; /* Spacing between lines */
+  color: #606060; /* Gray text color for description */
+  margin-bottom: 1.5rem; /* Space below the description */
+}
+
+/* Right side (Image) */
+.welcome-image {
+  max-width: 45%; /* Image container takes up 45% of the section */
+  text-align: right; /* Aligns image to the right */
+}
+
+.welcome-image img {
+  width: 100%; /* Image takes full width of its container */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures image covers its container nicely */
+  border-radius: 8px; /* Adds slight rounding to image corners */
+}

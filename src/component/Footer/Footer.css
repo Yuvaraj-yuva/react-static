@@ -1,0 +1,90 @@
+/* General Footer Styling */
+footer {
+  background-color: #1f2937; /* Dark gray (Tailwind bg-gray-900 equivalent) */
+  color: #ffffff; /* White text */
+  padding: 2rem; /* Padding around the footer */
+  text-align: center;
+}
+
+/* Container to center elements */
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Logo styling */
+footer img {
+  height: 4rem; /* 64px */
+  margin-bottom: 1rem; /* Space below the logo */
+  object-fit: contain;
+}
+
+/* Disclaimer text */
+footer p {
+  font-size: 0.875rem; /* Small font size */
+  line-height: 1.5; /* Line height for better readability */
+  max-width: 40rem; /* Limit width of disclaimer for readability */
+  white-space: pre-line; /* Preserve line breaks */
+  margin-bottom: 1rem; /* Margin below the disclaimer */
+}
+
+/* Icons section */
+footer .icons {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer .icons a {
+  color: #ffffff; /* Icon text color */
+  transition: opacity 0.3s ease;
+}
+
+footer .icons a:hover {
+  opacity: 0.75; /* Hover effect for icons */
+}
+
+/* Links Section */
+footer .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; /* Space between links */
+}
+
+footer .links h4 {
+  font-size: 1.125rem; /* Font size for link group headings */
+  font-weight: 600; /* Bold */
+  margin-bottom: 0.5rem; /* Space below heading */
+}
+
+footer .links ul {
+  list-style-type: none; /* Remove list bullets */
+  padding: 0;
+}
+
+footer .links ul li {
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+footer .links ul li a {
+  color: #ffffff; /* Link text color */
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+footer .links ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Copyright text */
+footer .copyright {
+  font-size: 0.75rem; /* Extra small font */
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #374151; /* Light gray border */
+}

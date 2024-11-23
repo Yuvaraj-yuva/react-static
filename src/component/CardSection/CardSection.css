@@ -1,0 +1,22 @@
+.card-section {
+  padding: 20px;
+}
+
+.product-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  width: 354px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

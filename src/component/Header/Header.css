@@ -1,0 +1,57 @@
+/* General header styling */
+header {
+  background-color: #111; /* Dark background for the header */
+  padding: 0.5rem; /* Padding for spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Container for logo and navigation */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Set a max width */
+  margin: 0 auto; /* Center the content */
+  padding: 0 1rem; /* Add padding to the sides */
+  width: 100%;
+}
+
+/* Logo styles */
+.header-logo img {
+  height: 50px; /* Adjust the logo height */
+  width: auto; /* Keep the width proportional */
+  display: block; /* Ensure it's displayed as a block element */
+}
+
+/* Menu styles */
+.nav-menu {
+  display: flex; /* Flexbox for horizontal layout */
+  gap: 2rem; /* Space between the menu items */
+}
+
+/* Menu link styles */
+.nav-menu a {
+  text-decoration: none; /* Remove underlines */
+  color: #fff; /* White text color */
+  font-weight: 500; /* Semi-bold text */
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.nav-menu a:hover {
+  color: #f0c040; /* Highlight color on hover */
+}
+
+/* Responsive design: Stack the menu vertically on smaller screens */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* Stack logo and menu */
+    align-items: flex-start; /* Align content to the left */
+  }
+
+  .nav-menu {
+    flex-direction: column; /* Stack menu items vertically */
+    gap: 1rem; /* Reduce gap between items */
+  }
+}
