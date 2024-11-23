@@ -35,7 +35,11 @@ const Header = () => {
         <div className="header-logo">
           <img src={item.logo.fields.file.url} alt="Logo" />
         </div>
+        {/* Static Home button */}
         <nav className="nav-menu">
+          <a href="/" className="home-button">
+            Home
+          </a>
           {item.subMenuLinks.map((link, index) => (
             <a key={index} href={link.fields.url}>
               {link.fields.title}
